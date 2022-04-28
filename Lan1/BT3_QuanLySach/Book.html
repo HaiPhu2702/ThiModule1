@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BookMannager</title>
+    <link rel="stylesheet" href="css/book.css">
+
+</head>
+<body>
+<div class="add-student">ADD BOOK
+    <table class="table-add-book">
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <td>Year</td>
+            <td><input type="text" id="year"></td>
+        </tr>
+        <tr>
+            <td>Number</td>
+            <td><input type="text" id="Number"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>
+                <button onclick="save()"> Save</button>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="list-book">
+    <table class="table-list-book">
+        <thead>
+        <tr>
+            <td>STT</td>
+            <td>Name</td>
+            <td>Year</td>
+            <td>Number</td>
+            <td colspan="2" class="status">status</td>
+        </tr>
+        </thead>
+
+        <tbody id="list-book1">
+        <tr>
+            <td>1</td>
+            <td>truyenKieu</td>
+            <td>1860</td>
+            <td>29</td>
+            <td>true</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+<script src="js/Book.js"></script>
+<script src="js/BookMannager.js"></script>
+<script src="js/Main.js"></script>
+</body>
+</html>

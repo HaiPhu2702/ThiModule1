@@ -1,0 +1,9 @@
+
+
+.table-list-book{
+    background: aqua;
+    border-collapse: collapse;
+}
+.table-list-book tr,th,td{
+    border: 1px solid green;
+}
